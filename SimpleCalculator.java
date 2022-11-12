@@ -2,15 +2,15 @@ package assignements;
 
 public class SimpleCalculator {
 	
-	private double firstNumber;
-	private double secondNumber;
+	private double firstNumber=0;
+	private double secondNumber=0;
 
 	public   double getFirstNumber() {
-		return this.firstNumber;
+		return firstNumber;
 	 
 	}
 	public double getSecondNumber() {
-		return this.secondNumber;
+		return secondNumber;
 	}
 	public void setFirstNumber(double firstNumber) {
 		this.firstNumber=firstNumber;
